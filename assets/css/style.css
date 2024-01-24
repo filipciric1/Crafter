@@ -13,8 +13,11 @@ nav{
   align-items: center;
   justify-content: space-between;
   background: #1f242d;
-  position: relative;
+  position: fixed;
   height: 67px;
+  top:0;
+  width: 100%;
+  z-index: 999;
 }
 
 .logo a{ 
@@ -81,6 +84,7 @@ section{
 /*HOME*/
 
 #home {
+  margin-top: 67px;
   background-color:black;
   height:870px;
 }
