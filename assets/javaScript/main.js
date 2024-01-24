@@ -1,5 +1,72 @@
 //---------------------------NAVIGACIJA--------------------------------------
 
+const menu = document.querySelector('#menuList');
+
+function setActiveMenuItem (id) {
+    const links = document.querySelectorAll('.menuItem')
+    links.forEach((link)=>{
+        link.classList.remove('active');
+        if(id === link.id) {
+            link.classList.add('active')
+        }
+    })
+}
+
+const menuItems = [
+    {
+        id: 'link_home',
+        title: 'Home',
+        link: '#home',
+        classList: ['active', 'menuItem']
+    },
+    {
+        id: 'link_about',
+        title: 'About us',
+        link: '#about',
+        classList: ['menuItem']
+    },
+    {
+        id: 'link_service',
+        title: 'Services',
+        link: '#service',
+        classList: ['menuItem']
+    },
+    {
+        id: 'link_gallery',
+        title: 'Gallery',
+        link: '#gallery',
+        classList: ['menuItem']
+    },
+    {
+        id: 'link_contact',
+        title: 'Contact',
+        link: '#contact',
+        classList: ['menuItem']
+    },
+    {
+        id: 'link_author',
+        title: 'Author',
+        link: '/author.html',
+        classList: ['drugaStrana']
+    }
+];
+
+menuItems.forEach((menuItem)=>{
+    const li = document.createElement('li');
+    const a = document.createElement('a');
+    a.href = menuItem.link;
+    a.innerText = menuItem.title;
+    a.id = menuItem.id
+    a.classList.add(...menuItem.classList)
+    a.addEventListener('click', ()=>setActiveMenuItem(menuItem.id))
+    li.appendChild(a);
+    menu.appendChild(li)
+
+})
+
+
+
+
 let sections=document.querySelectorAll('section');
 let navLinks=document.querySelectorAll('nav a');
 
@@ -320,69 +387,69 @@ function loadMore() {
 //----------------------------------------------------------------------- 
 
 //----------NAVIGATION---------------------------------------------------
-const menu = document.querySelector('#menuList');
+// const menu = document.querySelector('#menuList');
 
-function setActiveMenuItem (id) {
-    const links = document.querySelectorAll('.menuItem')
-    links.forEach((link)=>{
-        link.classList.remove('active');
-        if(id === link.id) {
-            link.classList.add('active')
-        }
-    })
-}
+// function setActiveMenuItem (id) {
+//     const links = document.querySelectorAll('.menuItem')
+//     links.forEach((link)=>{
+//         link.classList.remove('active');
+//         if(id === link.id) {
+//             link.classList.add('active')
+//         }
+//     })
+// }
 
-const menuItems = [
-    {
-        id: 'link_home',
-        title: 'Home',
-        link: '#home',
-        classList: ['active', 'menuItem']
-    },
-    {
-        id: 'link_about',
-        title: 'About us',
-        link: '#about',
-        classList: ['menuItem']
-    },
-    {
-        id: 'link_service',
-        title: 'Services',
-        link: '#service',
-        classList: ['menuItem']
-    },
-    {
-        id: 'link_gallery',
-        title: 'Gallery',
-        link: '#gallery',
-        classList: ['menuItem']
-    },
-    {
-        id: 'link_contact',
-        title: 'Contact',
-        link: '#contact',
-        classList: ['menuItem']
-    },
-    {
-        id: 'link_author',
-        title: 'Author',
-        link: '/author.html',
-        classList: ['drugaStrana']
-    }
-];
+// const menuItems = [
+//     {
+//         id: 'link_home',
+//         title: 'Home',
+//         link: '#home',
+//         classList: ['active', 'menuItem']
+//     },
+//     {
+//         id: 'link_about',
+//         title: 'About us',
+//         link: '#about',
+//         classList: ['menuItem']
+//     },
+//     {
+//         id: 'link_service',
+//         title: 'Services',
+//         link: '#service',
+//         classList: ['menuItem']
+//     },
+//     {
+//         id: 'link_gallery',
+//         title: 'Gallery',
+//         link: '#gallery',
+//         classList: ['menuItem']
+//     },
+//     {
+//         id: 'link_contact',
+//         title: 'Contact',
+//         link: '#contact',
+//         classList: ['menuItem']
+//     },
+//     {
+//         id: 'link_author',
+//         title: 'Author',
+//         link: '/author.html',
+//         classList: ['drugaStrana']
+//     }
+// ];
 
-menuItems.forEach((menuItem)=>{
-    const li = document.createElement('li');
-    const a = document.createElement('a');
-    a.href = menuItem.link;
-    a.innerText = menuItem.title;
-    a.id = menuItem.id
-    a.classList.add(...menuItem.classList)
-    a.addEventListener('click', ()=>setActiveMenuItem(menuItem.id))
-    li.appendChild(a);
-    menu.appendChild(li)
+// menuItems.forEach((menuItem)=>{
+//     const li = document.createElement('li');
+//     const a = document.createElement('a');
+//     a.href = menuItem.link;
+//     a.innerText = menuItem.title;
+//     a.id = menuItem.id
+//     a.classList.add(...menuItem.classList)
+//     a.addEventListener('click', ()=>setActiveMenuItem(menuItem.id))
+//     li.appendChild(a);
+//     menu.appendChild(li)
 
-})
+// })
 
 
 

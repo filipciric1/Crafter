@@ -74,11 +74,9 @@ section{
   min-width: 100vh;
   height:800px;
   display:flex;
+  background: #0f2027;
   justify-content: center;
   align-items: center;
-  font-size:100px;
-  color:#3498db;
-  font-weight:700; 
 }
 
 /*HOME*/
@@ -229,7 +227,8 @@ section{
 /*-------------------SERVICE------------------*/
 
 #service{
-  height:750px
+  height:750px;
+  background:#0f2027;
 }
 .wrapper {
   max-width: 1400px;
