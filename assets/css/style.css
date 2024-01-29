@@ -74,7 +74,6 @@ section{
   min-width: 100vh;
   height:800px;
   display:flex;
-  background: #0f2027;
   justify-content: center;
   align-items: center;
 }
@@ -228,7 +227,7 @@ section{
 
 #service{
   height:750px;
-  background:#0f2027;
+  background: yellow;
 }
 .wrapper {
   max-width: 1400px;
