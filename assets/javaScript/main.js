@@ -94,25 +94,6 @@ let menuList = document.getElementById("menuList")
             }
         }
 
-//------------------------SCROLL TO TOP---------------------------------------
-
-let mybutton = document.getElementById("myBtn1");
-
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-
 
 //-------------------FORMA--------------------------
 
@@ -158,15 +139,15 @@ const validateInputs = () => {
     const password2Value = password2.value.trim();
 
     if(usernameValue === '') {
-        setError(username, 'Username is required,must be: Filip');
+        setError(username, 'Username is required,example: Filip');
     } else {
         setSuccess(username);
     }
 
     if(emailValue === '') {
-        setError(email, 'Email is required');
+        setError(email, 'Email is required,example: filip@gmail.com');
     } else if (!isValidEmail(emailValue)) {
-        setError(email, 'Provide a valid email address,must be filip@gmail.com');
+        setError(email, 'Provide a valid email address,example: filip@gmail.com');
     } else {
         setSuccess(email);
     }
@@ -327,7 +308,7 @@ $(document).ready(function(){
     else{
     $(this).text( 'Read Less' );
     $(this).prev().toggle();
-    $(".tekst-about").height("450px")
+    $(".tekst-about").height("470px")
     }
     });
     });
@@ -385,76 +366,4 @@ function loadMore() {
     }
   }
 //-------------------------------------------------------------- 
-
-//----------NAVIGATION---------------------------------------------------
-// const menu = document.querySelector('#menuList');
-
-// function setActiveMenuItem (id) {
-//     const links = document.querySelectorAll('.menuItem')
-//     links.forEach((link)=>{
-//         link.classList.remove('active');
-//         if(id === link.id) {
-//             link.classList.add('active')
-//         }
-//     })
-// }
-
-// const menuItems = [
-//     {
-//         id: 'link_home',
-//         title: 'Home',
-//         link: '#home',
-//         classList: ['active', 'menuItem']
-//     },
-//     {
-//         id: 'link_about',
-//         title: 'About us',
-//         link: '#about',
-//         classList: ['menuItem']
-//     },
-//     {
-//         id: 'link_service',
-//         title: 'Services',
-//         link: '#service',
-//         classList: ['menuItem']
-//     },
-//     {
-//         id: 'link_gallery',
-//         title: 'Gallery',
-//         link: '#gallery',
-//         classList: ['menuItem']
-//     },
-//     {
-//         id: 'link_contact',
-//         title: 'Contact',
-//         link: '#contact',
-//         classList: ['menuItem']
-//     },
-//     {
-//         id: 'link_author',
-//         title: 'Author',
-//         link: '/author.html',
-//         classList: ['drugaStrana']
-//     }
-// ];
-
-// menuItems.forEach((menuItem)=>{
-//     const li = document.createElement('li');
-//     const a = document.createElement('a');
-//     a.href = menuItem.link;
-//     a.innerText = menuItem.title;
-//     a.id = menuItem.id
-//     a.classList.add(...menuItem.classList)
-//     a.addEventListener('click', ()=>setActiveMenuItem(menuItem.id))
-//     li.appendChild(a);
-//     menu.appendChild(li)
-
-// })
-
-
-
-
-
-
-//-----------------------------------------------------------------------
 

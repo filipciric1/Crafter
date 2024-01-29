@@ -75,10 +75,12 @@
     }
     .tekst-about{
         position:absolute;
-        left:10%;
+        left:5%;
     }
     /*Service*/
-
+    .card h2{
+        margin-left:100px;
+    }
     /*Gallery*/
     #gallery{
         height:4650px;
@@ -86,22 +88,22 @@
     #slike1 img{
         display: flex;
         flex-direction: column;
-        width:700px;
+        width:720px;
         height:550px;
     }
     #slike1 img:hover{
-        width:750px;
+        width:770px;
         height:600px;
         transition: width 1s, height 1s;
     }
     #slike2 img{
         display: flex;
         flex-direction: column;
-        width:700px;
+        width:720px;
         height:550px;
     }
     #slike2 img:hover{
-        width:750px;
+        width:770px;
         height:600px;
         transition: width 1s, height 1s;
     }
@@ -116,12 +118,12 @@
     #contact{
         display: flex;
         flex-direction: column;
-        height:1400px;
+        height:1250px;
     }
     .container{
         margin-top:50px;
         position:relative;
-        right:10%
+        right:11.5%;
     }
     #form{
         width:580px;
@@ -129,7 +131,7 @@
     .contact1{
         margin-bottom:50px;
         position:relative;
-        left:15%;
+        left:12%;
     }
     /*Footer*/
     /*Author*/
@@ -172,44 +174,73 @@
     }
     /*About-us*/
     #about{
-        height:500px;
-        width:700px;
+        height:520px;
+        width:100%;
     }
     .slika-about{
         display: none;
     }
     .tekst-about{
         position:absolute;
-        right:3%;
+        right:4%;
+        width:90%;
     }
     /*Service*/
     .card h2{
         width:300px;
         margin-left:230px;
     }
+    #service{
+        width:100%;
+    }
+    .wrapper .carousel{
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: calc((90% / 2) - 30px);
+        overflow-x:auto;
+        scroll-snap-type: x mandatory;
+        gap: 5px;
+        border-radius: 8px;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+        margin-left:45px;
+      }
+      #left{display: none;}
+      #right{
+        position: relative;
+        right:50%;
+      }
+      .card{
+        width:70%;
+        display: flex;
+        justify-content: center;
+      }
     /*Gallery*/
     #gallery{
         height:4650px;
+        width:100%;display: flex;
+        align-items: flex-start;
     }
 #slike1 img{
     display: flex;
     flex-direction: column;
-    width:700px;
+    width:670px;
     height:550px;
+    margin-right:50px;
   }
 #slike1 img:hover{
-    width:750px;
+    width:690px;
     height:600px;
     transition: width 1s, height 1s;
   }
 #slike2 img{
     display: flex;
     flex-direction: column;
-    width:700px;
+    width:670px;
     height:550px;
   }
 #slike2 img:hover{
-    width:750px;
+    width:690px;
     height:600px;
     transition: width 1s, height 1s;
   }
@@ -229,7 +260,7 @@
     .container{
         margin-top:50px;
         position:relative;
-        right:10%
+        right:23%
     }
     #form{
         width:580px;
@@ -237,7 +268,7 @@
     .contact1{
         margin-bottom:50px;
         position:relative;
-        left:20%;
+        left:3%;
     }
     /*Footer*/
     /*Author*/
