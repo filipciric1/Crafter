@@ -76,6 +76,7 @@ section{
   display:flex;
   justify-content: center;
   align-items: center;
+  font-weight: 700;
 }
 
 /*HOME*/
@@ -190,7 +191,7 @@ section{
   display:flex;
   flex-direction: column;
   width:700px;
-  height:450px;
+  height:350px;
   background:whitesmoke;
   margin-left:50px;
   border-bottom-right-radius: 20%;
@@ -227,7 +228,7 @@ section{
 
 #service{
   height:750px;
-  background: yellow;
+  background: #0f2027;
 }
 .wrapper {
   max-width: 1400px;
@@ -470,9 +471,6 @@ label{
   font-size: 9px;
   height: 13px;
 }
-#service{
-  background: #1f242d;
-}
 .error{
   margin-top: 2px;;
   font-size:15px;
@@ -621,7 +619,10 @@ footer{
 }
 
 /* AUTHOR.HTML*/
-
+.autorNav li,a{
+  text-decoration: none;
+  list-style-type: none;
+}
 #autor{
   background: #1f242d;
   margin:0px auto;
@@ -662,6 +663,7 @@ footer{
   margin:50px 20px 0 20px;
   line-height: 35px;
 }
+
 
 /*SCROLLER TO TOP*/
 

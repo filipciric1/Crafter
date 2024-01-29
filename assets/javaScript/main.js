@@ -65,8 +65,6 @@ menuItems.forEach((menuItem)=>{
 })
 
 
-
-
 let sections=document.querySelectorAll('section');
 let navLinks=document.querySelectorAll('nav a');
 
@@ -84,17 +82,17 @@ window.addEventListener('scroll',()=>{
         };
     });
 });
-// let menuList = document.getElementById("menuList")
-//     menuList.style.maxHeight = "0px";
+let menuList = document.getElementById("menuList")
+    menuList.style.maxHeight = "0px";
 
-//     function toggleMenu(){
-//         if(menuList.style.maxHeight == "0px"){
-//             menuList.style.maxHeight = "300px";
-//         }
-//             else{
-//                 menuList.style.maxHeight = "0px";
-//             }
-//         }
+    function hamburger(){
+        if(menuList.style.maxHeight == "0px"){
+            menuList.style.maxHeight = "310px";
+        }
+            else{
+                menuList.style.maxHeight = "0px";
+            }
+        }
 
 //------------------------SCROLL TO TOP---------------------------------------
 
@@ -324,10 +322,12 @@ $(document).ready(function(){
     if($(this).text() == 'Read Less'){
     $(this).text( 'Read More' );
     $(this).prev().toggle();
+    $(".tekst-about").height("350px")
     }
     else{
     $(this).text( 'Read Less' );
     $(this).prev().toggle();
+    $(".tekst-about").height("450px")
     }
     });
     });
@@ -384,7 +384,7 @@ function loadMore() {
       gallery.style.height="1250px"
     }
   }
-//----------------------------------------------------------------------- 
+//-------------------------------------------------------------- 
 
 //----------NAVIGATION---------------------------------------------------
 // const menu = document.querySelector('#menuList');

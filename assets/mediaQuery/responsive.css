@@ -1,10 +1,43 @@
-/*@media (max-width:850px) {
 
+@media screen and (max-width:1024px){
 
+    /*Header*/
+    /*Home*/
 
+    /*About-us*/
+
+    /*Service*/
+    /*Gallery*/
+    /* #gallery{
+      display: flex;
+      flex-direction: column;
+      display:none;
+    }
+
+    #slike1 img{
+      display: flex;
+      flex-direction: row;
+      width:700px;
+      height:550px;
+  }
+  #slike2 img{
+    display: flex;
+    flex-direction: row;
+    width:700px;
+    height:550px;
+}
+  
+    } */
+    /*Contact*/
+    /*Footer*/
+
+  }
+@media screen and (min-width:768px) and (max-width:1023px){
+
+    /*Header*/
     nav ul{
         position: absolute;
-        top: 70px;
+        top:66px;
         left: 0;
         right: 0;
         flex-direction: column;
@@ -14,8 +47,7 @@
         overflow: hidden;
     }
     nav ul li{
-        padding: 20px;
-        padding-top: 0;
+        padding: 15px;
     }
     .menu-icon{
         display: block;
@@ -23,170 +55,210 @@
     #menuList{
         transition: all 0.5s;
     }
+    
+    /*Home*/
+    .slide{
+        width:1023px;
+    }
+    .info p,h2{
+        position: relative;
+        right:17%
 
-
-    .img-slider{
-        width:600px;
-        height:375px;
     }
-    .img-slider .slide .info{
-        padding:10px 25px;
-    }
-    .img-slider .slide .info .h2{
-        font-size:35px;
-    }
-    .img-slider .slide .info p{
-        width:70%;
-        font-size:15px;
-    }
-    .img-slider .navigation{
-        bottom:25px;
-    }
-    .img-slider .navigation .btn{
-        width:10px;
-        height:10px;
-        margin:8px;
-    }
-
-
+    
+    /*About-us*/
     #about{
+        height:500px;
+    }
+    .slika-about{
+        display: none;
+    }
+    .tekst-about{
+        position:absolute;
+        left:10%;
+    }
+    /*Service*/
+
+    /*Gallery*/
+    #gallery{
+        height:4650px;
+    }
+    #slike1 img{
         display: flex;
         flex-direction: column;
+        width:700px;
+        height:550px;
     }
-    #slika-about{
-        width:100%;
-        height:350px;
+    #slike1 img:hover{
+        width:750px;
+        height:600px;
+        transition: width 1s, height 1s;
     }
-    #slika-about img{
-        width:100%;
-        height:100%;
+    #slike2 img{
+        display: flex;
+        flex-direction: column;
+        width:700px;
+        height:550px;
     }
-    #tekst-about{
-        width:100%;
-        height:450px;
+    #slike2 img:hover{
+        width:750px;
+        height:600px;
+        transition: width 1s, height 1s;
     }
-
-}
-
-
-@media(max-width:620px){
-    .img-slider{
-        width:400px;
-        height:250px;
+    #dots{
+        display: none;
     }
-    .img-slider .slide .info{
-        padding:10px 20px;
+    #load-more{
+        display: none;
     }
-    .img-slider .slide .info .h2{
-        font-size:30px;
-    }
-    .img-slider .slide .info p{
-        width:80%;
-        font-size:13px;
-    }
-    .img-slider .navigation{
-        bottom:15px;
-    }
-    .img-slider .navigation .btn{
-        width:8px;
-        height:8px;
-        margin:6px;
-    }
-}
-@media(max-width:420px){
-
-
-    .img-slider{
-        width:320px;
-        height:200px;
-    }
-    .img-slider .slide .info{
-        padding:5px 10px;
-    }
-    .img-slider .slide .info .h2{
-        font-size:25px;
-    }
-    .img-slider .slide .info p{
-        width:90%;
-        font-size:11px;
-    }
-    .img-slider .navigation{
-        bottom:10px;
-    }
-    .slide img{
-        width:100%;
-        height:150px;
-    }
-
-
-    #gallery{
-        height:2500px;
-        width:100%
-    }
-
-    
-
-}
-@media screen and (max-width: 790px) {
-    .wrapper .carousel {
-      grid-auto-columns: calc((100% / 2) - 9px);
-    }
-  }
-  @media screen and (max-width: 600px) {
-    .wrapper .carousel {
-      grid-auto-columns: 100%;
-    }
-  }
-
-  @media screen and (max-width: 1100px) {
-
-
-   #about{
-    display: flex;
-    width:100%;
-    height:500px;
-    flex-direction: column;
-}
-.slika-about{
-   display:none;
-}
-
-.tekst-about{
-    width:700px;
-    height:350px;
-}
-}*/
-
-/*---------------------------------------------*/
-
-@media screen and (max-width:1024px){
-
-    /*Header*/
-    /*Home*/
-    /*About-us*/
-    /*Service*/
-    /*Gallery*/
+   
     /*Contact*/
+    #contact{
+        display: flex;
+        flex-direction: column;
+        height:1400px;
+    }
+    .container{
+        margin-top:50px;
+        position:relative;
+        right:10%
+    }
+    #form{
+        width:580px;
+    }
+    .contact1{
+        margin-bottom:50px;
+        position:relative;
+        left:15%;
+    }
     /*Footer*/
-
-}
-@media screen and (min-width:768px) and (max-width:1023px){
-
-    /*Header*/
-    /*Home*/
-    /*About-us*/
-    /*Service*/
-    /*Gallery*/
-    /*Contact*/
-    /*Footer*/
+    /*Author*/
+    #autor{
+        width:900px;
+    }
 }
 @media screen and (max-width:767px) {
 
     /*Header*/
+    nav ul{
+        position: absolute;
+        top:66px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background: #004274;
+        gap: 0;
+        overflow: hidden;
+    }
+    nav ul li{
+        padding: 15px;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menuList{
+        transition: all 0.5s;
+    }
     /*Home*/
+    .info p,h2{
+        position: relative;
+        right:27%
+
+    }
+    .navigation{
+        position: absolute;
+        right:11%;
+    }
     /*About-us*/
+    #about{
+        height:500px;
+        width:700px;
+    }
+    .slika-about{
+        display: none;
+    }
+    .tekst-about{
+        position:absolute;
+        right:3%;
+    }
     /*Service*/
+    .card h2{
+        width:300px;
+        margin-left:230px;
+    }
     /*Gallery*/
+    #gallery{
+        height:4650px;
+    }
+#slike1 img{
+    display: flex;
+    flex-direction: column;
+    width:700px;
+    height:550px;
+  }
+#slike1 img:hover{
+    width:750px;
+    height:600px;
+    transition: width 1s, height 1s;
+  }
+#slike2 img{
+    display: flex;
+    flex-direction: column;
+    width:700px;
+    height:550px;
+  }
+#slike2 img:hover{
+    width:750px;
+    height:600px;
+    transition: width 1s, height 1s;
+  }
+#dots{
+    display: none;
+}
+#load-more{
+    display: none;
+}
+    
     /*Contact*/
+    #contact{
+        display: flex;
+        flex-direction: column;
+        height:1400px;
+    }
+    .container{
+        margin-top:50px;
+        position:relative;
+        right:10%
+    }
+    #form{
+        width:580px;
+    }
+    .contact1{
+        margin-bottom:50px;
+        position:relative;
+        left:20%;
+    }
     /*Footer*/
+    /*Author*/
+    #autor{
+        display: flex;
+        flex-direction: column;
+        height:1200px;
+        margin-top: 50px;
+        width:100%;
+    }
+    #author{
+        height:1350px;width:100%;
+    }
+    .slika-autor img{
+        position: relative;
+        left:20%;
+        top:3%;
+    }
+    .tekst-autor{
+        position: relative;
+        width:80%;
+        left:6%;
+    }
 }
