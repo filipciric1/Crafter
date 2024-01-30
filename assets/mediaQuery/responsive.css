@@ -232,6 +232,38 @@
         position: absolute;
         right:11%;
     } */
+    .img-slider .navigation{
+        z-index: 2;
+        position:absolute;
+        display:flex;
+        bottom:30px;
+        left:50%;
+        transform: translateX(-50%);
+      }
+      .img-slider .slide .info{
+        position:absolute;
+        top:30%;
+        left:1%;
+        padding:15px 30px;
+        font-size: 15px;
+      }
+      .img-slider .slide .info h2{
+        color:#fff;
+        font-size:32px;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 10px;
+        opacity:0.9;
+      }
+      .img-slider .slide .info p{
+        color:#f0f0f0;
+        font-size:25px;
+        width:95%;
+        padding:10px;
+        border-radius:4px;
+        opacity:0.9;
+        margin-top:10px;
+      }
     /*About-us*/
     #about{
         height:520px;
@@ -251,7 +283,6 @@
     }
     #service{
         width:100%;
-        display: none;
     }
     .wrapper .carousel{
         display: grid;
@@ -263,7 +294,14 @@
         border-radius: 8px;
         scroll-behavior: smooth;
         scrollbar-width: none;
-        margin-left:45px;
+      }
+      .carousel .card h2 {
+        font-weight: 500;
+        font-size: 1.20rem;
+        margin-top:50px;
+        color:#3498db;
+        margin-left:-9px;
+        width:90%;
       }
       #left{
         display: none;
