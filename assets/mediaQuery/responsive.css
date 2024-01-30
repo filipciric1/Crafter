@@ -251,6 +251,7 @@
     }
     #service{
         width:100%;
+        display: none;
     }
     .wrapper .carousel{
         display: grid;
