@@ -233,10 +233,10 @@ section{
 
 #service{
   height:750px;
+  width:100%;
   background: #0f2027;
 }
 .wrapper {
-  max-width: 1400px;
   width: 100%;
   position: relative;
 }
@@ -259,9 +259,10 @@ section{
   transform: translateY(-50%) scale(0.85);
 }
 #right{
-  right:5%;
-}#left{
-  left:1px;
+right:10px;
+}
+#left{
+  left:-10px;
 }
 .wrapper .carousel{
   display: grid;
@@ -273,6 +274,7 @@ section{
   border-radius: 8px;
   scroll-behavior: smooth;
   scrollbar-width: none;
+  margin-left:3%;
 }
 .carousel::-webkit-scrollbar {
   display: none;
@@ -295,8 +297,6 @@ section{
 }
 .carousel .card {
   scroll-snap-align: start;
-  display: flex;
-  justify-content: space-around;
   width:80%;
   height: 500px;
   list-style: none;
@@ -305,15 +305,16 @@ section{
   padding-bottom: 15px;
   flex-direction: column;
   border-radius: 8px;
+  text-align: center;
 }
 .carousel .card .img {
   background: #3498db;
   height: 220px;
-  width: 220px;
+  width: 60%;
   border-radius: 50%;
 }
 .card .img img {
-  width: 210px;
+  width: 95%;
   height: 210px;
   border-radius: 50%;
   object-fit: cover;
@@ -321,10 +322,9 @@ section{
 }
 .carousel .card h2 {
   font-weight: 500;
-  font-size: 1.70rem;
-  /* margin: 30px 0 5px; */
+  font-size: 1.50rem;
   margin-top:50px;
-  color:#3498db
+  color:#3498db;
 }
 .carousel .card span {
   color: #6A6D78;
@@ -552,6 +552,7 @@ table,tr,td,th{
   border: 1px solid black;
   border-collapse:collapse;
   padding:7px;
+  text-align: center;
 }
 table{
   margin: 0px auto;
@@ -663,13 +664,13 @@ footer{
 #autor{
   background: #1f242d;
   margin:0px auto;
-  width:1120px;
+  width:100%;
   height:560px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .slika-autor{
-  width:500px;
+  width:30%;
   height:500px;
   margin:30px;
 }
@@ -681,7 +682,7 @@ footer{
   
 }
 .tekst-autor{
-  width: 500px;
+  width: 40%;
   height:500px;
   background: whitesmoke;
   margin:30px 30px 30px;
