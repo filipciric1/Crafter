@@ -35,6 +35,9 @@
 @media screen and (min-width:768px) and (max-width:1023px){
 
     /*Header*/
+    nav{
+        width:100%;
+    }
     nav ul{
         position: absolute;
         top:66px;
@@ -206,6 +209,9 @@
         background: #004274;
         gap: 0;
         overflow: hidden;
+    }
+    nav{
+        width:100%;
     }
     nav ul li{
         padding: 15px;
