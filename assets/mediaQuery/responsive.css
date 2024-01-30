@@ -223,7 +223,7 @@
         transition: all 0.5s;
     }
     /*Home*/
-    .info p,h2{
+    /* .info p,h2{
         position: relative;
         right:27%
 
@@ -231,7 +231,7 @@
     .navigation{
         position: absolute;
         right:11%;
-    }
+    } */
     /*About-us*/
     #about{
         height:520px;
