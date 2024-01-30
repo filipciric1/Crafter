@@ -83,6 +83,7 @@ section{
 
 #home {
   margin-top: 67px;
+  width:100%;
   background-color:black;
   height:870px;
 }
