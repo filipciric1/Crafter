@@ -362,7 +362,7 @@ function loadMore() {
       dots.style.display = "none";
       loadBtn.innerHTML = "Show Less"; 
       moreImage.style.display = "inline";
-      gallery.style.height="1250px"
+      gallery.style.height="1270px"
     }
   }
 //-------------------------------------------------------------- 

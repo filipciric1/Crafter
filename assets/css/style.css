@@ -196,6 +196,7 @@ section{
   display:flex;
   flex-direction: column;
   width:53%;
+  height:400px;
   background:whitesmoke;
   margin-left:50px;
   border-bottom-right-radius: 20%;
@@ -257,16 +258,15 @@ section{
 .wrapper i:active{
   transform: translateY(-50%) scale(0.85);
 }
-.wrapper i:first-child{
-  left: -22px;
-}
-.wrapper i:last-child{
-  right: -22px;
+#right{
+  right:5%;
+}#left{
+  left:1px;
 }
 .wrapper .carousel{
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: calc((100% / 3) - 12px);
+  grid-auto-columns: calc((99.5% / 3));
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   gap: 16px;
@@ -295,6 +295,9 @@ section{
 }
 .carousel .card {
   scroll-snap-align: start;
+  display: flex;
+  justify-content: space-around;
+  width:80%;
   height: 500px;
   list-style: none;
   background: #fff;
@@ -343,13 +346,17 @@ section{
 
 #gallery{
   width:100%;
-  height:860px;
+  height:880px;
   display: flex;
   flex-direction: column;
+  padding-top:20px;
+}
+#gallery img{
+  border:1px solid #fff;
 }
 #slike1{
   width:100%;
-  height:360px;
+  height:400px;
   display: flex;
   justify-content: space-around;
 }
@@ -359,7 +366,7 @@ section{
 }
 #slike2{
   width:100%;
-  height:360px;
+  height:400px;
   display: flex;
   justify-content: space-around;
 }
@@ -369,7 +376,7 @@ section{
 }
 #slike3{
   width:100%;
-  height:360px;
+  height:400px;
   display: flex;
   justify-content: space-around;
   
@@ -379,17 +386,17 @@ section{
   height:70%;
 }
 
-/* #gallery img:hover{
-  width:390px;
+#gallery img:hover{
+  width:23%;
   height:340px;
   opacity: 0.7;
   transition: width 1s, height 1s;
-} */
+}
 
 #more {
   display: none;
   width:100%;
-  height:360px
+  height:400px
 }
 #dots{
   font-weight: bold;
@@ -413,11 +420,11 @@ section{
 #contact{
   background-color: #0f2027;
   display:flex;
-  justify-content: space-between;
+  justify-content: space-around;
   height:600px;
 }
 .container{
-  width:800px;
+  width:40%;
   height:550px;
   display: flex;
   justify-content: end;
@@ -440,7 +447,7 @@ section{
   background-color: #555;
 }
 #form {
-  width: 500px;
+  width: 80%;
   height:100%;
   padding: 20px;
   background-color: whitesmoke;
@@ -508,9 +515,8 @@ label{
   font-size:15px;
 }
 .contact1{
-  width:580px;
+  width:30%;
   height:550px;
-  margin-right:250px;
   background: whitesmoke;
   border-radius: 5px;
 }
@@ -519,7 +525,7 @@ label{
   color:black;
   margin-top:50px;
   display: flex;
-  width:400px;
+  width:100%;
   height:35px;
   letter-spacing: 1px;
 }
@@ -540,9 +546,7 @@ i:hover{
   color:black;
   margin-top:40px;
   height:130px;
-  width:450px;
-  margin-left:100px;
-  
+  width:100%;
 }
 table,tr,td,th{
   border: 1px solid black;
@@ -550,17 +554,18 @@ table,tr,td,th{
   padding:7px;
 }
 table{
-  margin-top:20px;
-  margin-left:10px;
+  margin: 0px auto;
+  width:90%;
 }
 .icon1 p{
   padding-top: 10px;
   font-size:23px;
-  margin-left: 100px;
+  text-align: center;
+  margin-bottom:40px;
 }
 .contact1 hr{ 
   display: block;
-  width:400px;
+  width:70%;
   margin-left: auto;
   margin-right: auto;
   border-style: inset;
