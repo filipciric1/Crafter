@@ -448,7 +448,11 @@
     }
     .tekst-autor{
         width:90%;
-        height:600px;
+        height:530px;
         margin:5%;
     }
+    .tekst-autor p{
+        line-height:none;
+      }
+      
 }
