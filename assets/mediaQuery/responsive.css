@@ -321,7 +321,6 @@
         width:90%;
       }
       #left{
-        display: none;
     }
     #right{
         display: none;
@@ -438,8 +437,7 @@
         width:95%;
         height:500px;
         margin:0px;
-        margin-top:15px;
-    }
+    /* ? */
     .slika-autor img{
         width:90%;
         height:100%;
@@ -451,4 +449,4 @@
         height:600px;
         margin:5%;
     }
-}
+}}
