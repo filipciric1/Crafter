@@ -254,6 +254,7 @@
         font-weight: 800;
         letter-spacing: 10px;
         opacity:0.9;
+        margin-left:10px;
       }
       .img-slider .slide .info p{
         color:#f0f0f0;
