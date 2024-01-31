@@ -437,14 +437,18 @@
     .slika-autor{
         width:95%;
         height:500px;
+        margin:0px;
+        margin-top:15px;
     }
     .slika-autor img{
         width:90%;
         height:100%;
-        margin-left:3%;
+        margin-left:8%;
+        
     }
     .tekst-autor{
         width:90%;
         height:600px;
+        margin:5%;
     }
 }
