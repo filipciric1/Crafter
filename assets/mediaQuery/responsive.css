@@ -275,7 +275,6 @@
     .tekst-about{
         width:100%;
         margin-right:30px;
-        font-size:10px;
         height:300px
     }
     .tekst-about h3{
@@ -288,12 +287,11 @@
     }
     .rdmore{
         margin : 10px 0px 0px 30px;
-        padding : 10px;
-        font-size : 18px;
+        padding : 1px;
         display : block;
         cursor : pointer;
         color: #000;
-        font-size: 19px;
+        font-size: 15px;
         }
     /*Service*/
     .card h2{
