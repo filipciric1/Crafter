@@ -389,7 +389,39 @@
         width:80%;
         margin-bottom:50px;
     }
+    .icon i{
+        font-size:20px;
+      }
+    .icon{
+        font-size:15px;
+      }
+      table{
+        font-size:12px;
+      }
+      .icon1 p{
+        font-size:17px
+      }
     /*Footer*/
+    .ikonice{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width:50%;
+        text-align: center;
+        font-size:15px
+      }
+      .ikonice i{
+        display:flex;
+        justify-content: space-around;
+        width:10%;
+      }
+      .copyright{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width:50%;
+        font-size:15px;
+      }
     /*Author*/
     #autor{
         display: flex;
