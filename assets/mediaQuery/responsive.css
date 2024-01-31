@@ -311,6 +311,7 @@
         border-radius: 8px;
         scroll-behavior: smooth;
         scrollbar-width: none;
+        margin-left:20px;
       }
       .carousel .card h2 {
         font-weight: 500;
@@ -321,6 +322,7 @@
         width:90%;
       }
       #left{
+        margin-left:11px;
     }
     #right{
     }
