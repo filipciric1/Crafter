@@ -428,18 +428,21 @@
     #autor{
         display: flex;
         flex-direction: column;
-        height:1100px;
+        height:1000px;
         margin-top: 50px;
         width:100%;
     }
     #author{
-        height:1350px;
+        height:1300px;
         width:100%;
     }
     .slika-autor{
         width:95%;
         height:500px;
-        margin:0px;}
+        margin:0px;
+        margin-top:25px;
+    }
+
     .slika-autor img{
         width:90%;
         height:100%;
@@ -448,7 +451,7 @@
     }
     .tekst-autor{
         width:90%;
-        height:440px;
+        height:410px;
         margin:5%;
     }
     .tekst-autor p{
