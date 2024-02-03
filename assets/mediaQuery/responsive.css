@@ -246,7 +246,7 @@
         transition: all 0.5s;
     }
     /*Home*/
-
+    #home{display:none;}
     .img-slider .navigation{
         z-index: 2;
         position:absolute;
@@ -313,7 +313,6 @@
     /*Service*/
     #service{
         width:100%;
-        display:none;
     }
     .wrapper i {
         display:none;
