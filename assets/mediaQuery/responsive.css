@@ -258,7 +258,7 @@
       .img-slider .slide .info{
         position:absolute;
         top:30%;
-        left:30%;
+        left:10%;
         padding:15px 30px;
         font-size: 15px;
       }
@@ -311,13 +311,16 @@
         font-size: 15px;
         }
     /*Service*/
-    .card h2{
-        width:70%;
-        /* margin-left:140px; */
-    }
     #service{
         width:100%;
     }
+    .wrapper i {
+        display:none;
+    }
+    .wrapper {
+        width: 90%;
+        position: relative;
+      }
     .wrapper .carousel{
         display: grid;
         grid-auto-flow: column;
@@ -328,27 +331,40 @@
         border-radius: 8px;
         scroll-behavior: smooth;
         scrollbar-width: none;
-        margin-left:14%;
+        margin-left:0px;
+      }
+      .carousel .card .img {
+        background: #3498db;
+        height: 45%;
+        width: 50%;
+        border-radius: 50%;
+        margin-top:30px;
       }
       .img img {
-        width: 90%;
-        height: 20%;
+        width: 95%;
+        height: 95%;
         border-radius: 50%;
         object-fit: cover;
         border: 1px solid #fff;
       }
       .carousel .card h2 {
         font-weight: 500;
-        font-size: 1.20rem;
+        font-size: 1.10rem;
         margin-top:50px;
         color:#3498db;
-        width:100%;
+        width:90%;
+      }
+      .card p{
+        font-size: 1.0rem;
+        color:black;
+        margin:0px;
+        text-align: center;
       }
       #left{
-       margin:0px
+       display:none;
       }
       #right{
-        margin:0px;
+        display:none;
       }
 
     /*Gallery*/

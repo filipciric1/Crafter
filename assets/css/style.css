@@ -274,7 +274,7 @@ right:10px;
   border-radius: 8px;
   scroll-behavior: smooth;
   scrollbar-width: none;
-  margin-left:3%;
+  margin-left:6%;
 }
 .carousel::-webkit-scrollbar {
   display: none;
