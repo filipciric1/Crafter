@@ -240,7 +240,7 @@ section{
   width: 100%;
   position: relative;
 }
-.wrapper i {
+.wrapper i{
   top: 50%;
   height: 50px;
   width: 50px;
@@ -262,7 +262,7 @@ section{
 right:10px;
 }
 #left{
-  left:2px;
+  left:10px;
 }
 .wrapper .carousel{
   display: grid;
