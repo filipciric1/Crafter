@@ -126,7 +126,9 @@ const setSuccess = element => {
     inputControl.classList.add('success');
     inputControl.classList.remove('error');
 };
-
+// const isValidUsername = username1 =>{
+//     const reUser=/^[A-ZŽĆČŠĐ]{1}[a-zžćčšđ]{2,10}$/
+// }
 const isValidEmail = email => {
     const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(String(email).toLowerCase());
@@ -139,8 +141,12 @@ const validateInputs = () => {
     const password2Value = password2.value.trim();
 
     if(usernameValue === '') {
-        setError(username, 'Username is required,example: Filip');
-    } else {
+        setError(username, 'Username is required,example: Filip and need to have max 10 characters.');
+    }
+    else if(usernameValue.length>10){
+        setError(username,'Username is not valid, example: Filip and need to have max 10 characters.')
+    }
+    else {
         setSuccess(username);
     }
 
@@ -153,9 +159,9 @@ const validateInputs = () => {
     }
 
     if(passwordValue === '') {
-        setError(password, 'Password is required');
+        setError(password, 'Password is required adn must be at least 8 characters.');
     } else if (passwordValue.length < 8 ) {
-        setError(password, 'Password must be at least 8 character.')
+        setError(password, 'Password must be at least 8 characters.')
     } else {
         setSuccess(password);
     }
@@ -196,7 +202,9 @@ const validateInputs = () => {
 let nizDani=["Working days","Saturday","Sunday"];
 let nizVreme=["08:00-20:00","08:00-17:00","08:00-14:00"];
 
-let ispisTabela=`<table>
+let ispisTabela=`
+            <p>Working Time</p>
+<table>
                 <thead>
                 <tr>`
 
