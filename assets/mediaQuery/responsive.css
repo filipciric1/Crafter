@@ -246,7 +246,7 @@
         transition: all 0.5s;
     }
     /*Home*/
-    #home{display:none;}
+    /* #home{display:none;} */
     .img-slider .navigation{
         z-index: 2;
         position:absolute;
@@ -331,7 +331,7 @@
         border-radius: 8px;
         scroll-behavior: smooth;
         scrollbar-width: none;
-        margin-left:15%;
+        margin-left:0px;
       }
       .carousel .card .img {
         background: #3498db;
