@@ -246,6 +246,7 @@
         transition: all 0.5s;
     }
     /*Home*/
+    #home{display:none;}
     .img-slider .navigation{
         z-index: 2;
         position:absolute;
@@ -323,7 +324,7 @@
     .wrapper .carousel{
         display: grid;
         grid-auto-flow: column;
-        grid-auto-columns: calc((100% / 1));
+        grid-auto-columns: calc((90% / 1));
         overflow-x:auto;
         scroll-snap-type: x mandatory;
         gap: 5px;
@@ -360,10 +361,10 @@
         text-align: center;
       }
       #left{
-       display:block;
+       display:none;
       }
       #right{
-        display:block;
+        display:none;
       }
 
     /*Gallery*/
