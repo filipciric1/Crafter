@@ -246,7 +246,6 @@
         transition: all 0.5s;
     }
     /*Home*/
-    #home{display:none;}
     .img-slider .navigation{
         z-index: 2;
         position:absolute;
@@ -258,7 +257,7 @@
       .img-slider .slide .info{
         position:absolute;
         top:30%;
-        /* left:9%; */
+        left:0;
         padding:15px 30px;
         font-size: 15px;
       }
