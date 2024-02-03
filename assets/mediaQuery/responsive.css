@@ -351,6 +351,7 @@
         font-size: 1.10rem;
         margin-top:50px;
         color:#3498db;
+        margin-top:10px;
         width:90%;
       }
       .card p{
@@ -358,7 +359,7 @@
         color:black;
         margin:0px;
         text-align: center;
-        margin-top:10px;
+        margin-top:15px;
       }
       #left{
        display:block;
