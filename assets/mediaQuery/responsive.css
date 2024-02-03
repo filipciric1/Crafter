@@ -246,7 +246,6 @@
         transition: all 0.5s;
     }
     /*Home*/
-    /* #home{display:none;} */
     .img-slider .navigation{
         z-index: 2;
         position:absolute;
@@ -361,10 +360,10 @@
         text-align: center;
       }
       #left{
-       display:none;
+       display:block;
       }
       #right{
-        display:none;
+        display:block;
       }
 
     /*Gallery*/
