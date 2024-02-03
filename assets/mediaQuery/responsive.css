@@ -361,6 +361,7 @@
       }
       #left{
        display:block;
+       margin-left:0px;
       }
       #right{
         display:block;
