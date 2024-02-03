@@ -262,7 +262,7 @@ section{
 right:10px;
 }
 #left{
-  left:-10px;
+  left:-15px;
 }
 .wrapper .carousel{
   display: grid;
