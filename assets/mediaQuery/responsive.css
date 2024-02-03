@@ -328,25 +328,27 @@
         border-radius: 8px;
         scroll-behavior: smooth;
         scrollbar-width: none;
-        margin-left:15%;
+        margin-left:14%;
       }
       .img img {
-        width: 95%;
+        width: 90%;
         height: 20%;
         border-radius: 50%;
         object-fit: cover;
-        border: 4px solid #fff;
+        border: 1px solid #fff;
       }
       .carousel .card h2 {
         font-weight: 500;
         font-size: 1.20rem;
         margin-top:50px;
         color:#3498db;
-        margin-left:-9px;
         width:100%;
       }
       #left{
-        margin-left:11px;
+       margin:0px
+      }
+      #right{
+        margin:0px;
       }
 
     /*Gallery*/
