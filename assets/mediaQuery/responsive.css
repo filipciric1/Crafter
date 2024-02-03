@@ -330,7 +330,7 @@
         border-radius: 8px;
         scroll-behavior: smooth;
         scrollbar-width: none;
-        margin-left:5%;
+        margin-left:10%;
       }
       .carousel .card .img {
         background: #3498db;
