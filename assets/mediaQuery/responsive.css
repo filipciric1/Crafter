@@ -313,6 +313,7 @@
     /*Service*/
     #service{
         width:100%;
+        display:none;
     }
     .wrapper i {
         display:none;
