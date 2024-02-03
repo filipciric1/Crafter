@@ -2,14 +2,14 @@
 <rss version="2.0">
 
 <channel>
-  <title>W3Schools Home Page</title>
-  <link>https://www.w3schools.com</link>
+  <title>Home page</title>
+  <link>https://https://crafter-beta.vercel.app/index.html</link>
   <description>Custom hand-made sneakers</description>
   <item>
-    <title>RSS Tutorial</title>
-    <link>https://www.w3schools.com/author.html</link>
+    <title>Author page</title>
+    <link>https://crafter-beta.vercel.app/author.html</link>
     <description>About author</description>
   </item>
-</channel>
 
+</channel>
 </rss>

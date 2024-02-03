@@ -170,6 +170,52 @@ const validateInputs = () => {
 
 };
 
+//--------------------------CONTACT TABLE------------------------------------
+
+
+/* <table>
+<table>
+    <thead>
+      <tr>
+        <th>working days</th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>08:00-20:00</td>
+        <td>08:00-17:00</td>
+        <td>08:00-14:00</td>
+      </tr>
+    </tbody>
+    </table>
+</table> */
+
+
+let nizDani=["Working days","Saturday","Sunday"];
+let nizVreme=["08:00-20:00","08:00-17:00","08:00-14:00"];
+
+let ispisTabela=`<table>
+                <thead>
+                <tr>`
+
+    for(let i=0;i<nizDani.length;i++){
+        ispisTabela+=`<th>${nizDani[i]}</th>`;
+    }
+    ispisTabela+=`
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>`
+    for(let i=0;i<nizVreme.length;i++){
+        ispisTabela+=`<td>${nizVreme[i]}</td>`
+    }
+    ispisTabela+=`</tr>
+                    </tbody>
+                    </table>`
+    document.querySelector(".icon1").innerHTML=ispisTabela;
+
 //----------------------HOME SLIDER------------------------------------------
 
 var slides=document.querySelectorAll(".slide");

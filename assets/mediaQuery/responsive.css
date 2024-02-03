@@ -223,15 +223,7 @@
         transition: all 0.5s;
     }
     /*Home*/
-    /* .info p,h2{
-        position: relative;
-        right:27%
 
-    }
-    .navigation{
-        position: absolute;
-        right:11%;
-    } */
     .img-slider .navigation{
         z-index: 2;
         position:absolute;
@@ -329,6 +321,7 @@
     #right{
     }
     /*Gallery*/
+    
     #gallery{
         height:4600px;
         width:100%;
