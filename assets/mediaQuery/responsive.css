@@ -331,7 +331,7 @@
         border-radius: 8px;
         scroll-behavior: smooth;
         scrollbar-width: none;
-        margin-left:0px;
+        margin-left:15%;
       }
       .carousel .card .img {
         background: #3498db;
@@ -361,10 +361,10 @@
         text-align: center;
       }
       #left{
-       display:none;
+       display:block;
       }
       #right{
-        display:none;
+        display:block;
       }
 
     /*Gallery*/
