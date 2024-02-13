@@ -390,27 +390,6 @@ document.getElementById("slike3").innerHTML=ispisSlika3;
 
 //--------------GALLERY SHOW MORE--------------------------------------------
 
-// function loadMore(){
-//     var dots = document.getElementById("dots");
-//     var moreImage = document.getElementById("more");
-//     var blockMore = document.querySelector("#slike3");
-//     var loadBtn = document.querySelector(".load-more");
-//     var gallerySlike = document.getElementById("forClass");
-//     var gallery=document.getElementById("gallery");
-
-//     if (dots.style.display === "none") {
-  
-
-//       dots.style.display = "inline";
-//       loadBtn.innerHTML = "Show More"; 
-//     } else {
-
-
-
-//       dots.style.display = "none";
-//       loadBtn.innerHTML = "Show Less"; 
-//     }
-//   }
 function loadMore() {
     var dots = document.getElementById("dots");
     var morePhoto = document.getElementById("more");
