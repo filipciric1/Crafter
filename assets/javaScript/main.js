@@ -396,17 +396,12 @@ function loadMore() {
     var btn = document.getElementById("load-more");
   
     if (dots.style.display === "none") {
-
-
-
       document.querySelector("#gallery").classList.remove("galleryLoadMore");
       document.querySelector("#forClass").classList.remove("forClassHeight");
       dots.style.display = "inline";
       btn.innerHTML = "Show More"; 
       morePhoto.style.display = "none";
     } else {
-
-
     document.querySelector("#gallery").classList.add("galleryLoadMore");
     document.querySelector("#forClass").classList.add("forClassHeight");
       dots.style.display = "none";

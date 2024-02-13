@@ -1,38 +1,5 @@
 
-@media screen and (max-width:1024px){
-
-    /*Header*/
-    /*Home*/
-
-    /*About-us*/
-
-    /*Service*/
-    /*Gallery*/
-    /* .gallerySlikeExpand{
-      height: 2000px !important;
-  }
-  .moreImageFlex{
-      margin-top:5px;
-  }
-
-    
-
-    #slike1 img{
-      display: flex;
-      flex-direction: row;
-      width:700px;
-      height:550px;
-  }
-  #slike2 img{
-    display: flex;
-    flex-direction: row;
-    width:700px;
-    height:550px;
-} */
-  
- 
-
-  }
+@media screen and (max-width:1024px){}
 @media screen and (min-width:768px) and (max-width:1023px){
 
     /*Header*/
@@ -132,69 +99,17 @@
         text-align: center;
       } 
     /*Gallery*/
-      /* #gallery{
-        display: flex;
-        align-content: flex-start;
-      }
-    .galleryLoadMore{
-        height:4200px !important;
-        width:100%;
-    }
-    #slike1{
-        width:75%;
-        height:1400px;
-        display: flex;
-        margin: 0px auto;
-        flex-direction: column;
-        background-color: green;
-
-    }
-    #slike1 img{
-        width:100%;
-        height:20%;
-    }
-    #slike1 img:hover{
-        width:110%;
-        height:22%;
-    }
-    #slike2{
-        width:75%;
-        height:1400px;
-        display: flex;
-        margin: 0px auto;
-        flex-direction: column;
-        background-color: blue;
-    }
-    #slike2 img{
-        width:100%;
-        height:20%;
-    }
-    #slike2 img:hover{
-        width:110%;
-        height:22%;
-    }
-    .photoMore{
-      display: flex !important;
-      flex-direction: column
-    }
-    .loadMore{
-        height: 1500px !important;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        background-color: red;
-    }
-    #slike3 img{
-      width:75%;
-      height:300px;
-      margin: 0px auto;
-      margin-top:50px;
-    } */
 
     #gallery{
       width:100%;
       height:3600px;
       display: flex;
+    }
+    #gallery img:hover{
+      width:104%;
+      height:420px;
+      opacity:0.7;
+      transition: width 1s, height 1s;
     }
     #forClass{
       height:3500px;
@@ -444,6 +359,12 @@
       height:3600px;
       display: flex;
     }
+    #gallery img:hover{
+      width:104%;
+      height:420px;
+      opacity:0.7;
+      transition: width 1s, height 1s;
+    }
     #forClass{
       height:3500px;
       display: flex;
@@ -587,6 +508,12 @@
         width:100%;
         height:2800px;
         display: flex;
+      }
+      #gallery img:hover{
+        width:104%;
+        height:320px;
+        opacity:0.7;
+        transition: width 1s, height 1s;
       }
       #forClass{
         height:2700px;
