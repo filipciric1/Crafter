@@ -390,22 +390,49 @@ document.getElementById("slike3").innerHTML=ispisSlika3;
 
 //--------------GALLERY SHOW MORE--------------------------------------------
 
+// function loadMore(){
+//     var dots = document.getElementById("dots");
+//     var moreImage = document.getElementById("more");
+//     var blockMore = document.querySelector("#slike3");
+//     var loadBtn = document.querySelector(".load-more");
+//     var gallerySlike = document.getElementById("forClass");
+//     var gallery=document.getElementById("gallery");
+
+//     if (dots.style.display === "none") {
+  
+
+//       dots.style.display = "inline";
+//       loadBtn.innerHTML = "Show More"; 
+//     } else {
+
+
+
+//       dots.style.display = "none";
+//       loadBtn.innerHTML = "Show Less"; 
+//     }
+//   }
 function loadMore() {
     var dots = document.getElementById("dots");
-    var moreImage = document.getElementById("more");
-    var loadBtn = document.getElementById("load-more");
-    var gallery = document.getElementById("gallery");
-
+    var morePhoto = document.getElementById("more");
+    var btn = document.getElementById("load-more");
+  
     if (dots.style.display === "none") {
-      gallery.style.height="860px";
+
+
+
+      document.querySelector("#gallery").classList.remove("galleryLoadMore");
+      document.querySelector("#forClass").classList.remove("forClassHeight");
       dots.style.display = "inline";
-      loadBtn.innerHTML = "Show More"; 
-      moreImage.style.display = "none";
+      btn.innerHTML = "Show More"; 
+      morePhoto.style.display = "none";
     } else {
+
+
+    document.querySelector("#gallery").classList.add("galleryLoadMore");
+    document.querySelector("#forClass").classList.add("forClassHeight");
       dots.style.display = "none";
-      loadBtn.innerHTML = "Show Less"; 
-      moreImage.style.display = "inline";
-      gallery.style.height="1270px"
+      btn.innerHTML = "Show Less"; 
+      morePhoto.style.display = "inline";
     }
   }
 //-------------------------------------------------------------- 
